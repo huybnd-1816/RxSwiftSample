@@ -66,3 +66,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+RxSwiftSample/Pods/
+RxSwiftSample/.DS_Store
+RxSwiftSample/RxSwiftSample/.DS_Store
+/.DS_Store
