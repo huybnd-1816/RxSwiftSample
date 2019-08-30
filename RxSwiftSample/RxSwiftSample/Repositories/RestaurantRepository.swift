@@ -11,6 +11,7 @@ protocol RestaurantRepository {
 }
 
 final class RestaurantRepositoryImpl: RestaurantRepository {
+
     private var api: APIService?
     
     required init(api: APIService) {

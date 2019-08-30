@@ -12,6 +12,7 @@ final class MainViewModel: NSObject {
     private let repoRepository = RestaurantRepositoryImpl(api: APIService.shared)
     
     var didChanged: (() -> Void)?
+
     private var isFetching: Bool = false
     
     override init() {
