@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
+        <!--Main Rx View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="RxSwiftSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainRxViewController" customModule="RxSwiftSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,9 +40,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="restaurantTableView" destination="elJ-cv-7cl" id="eOT-Fb-hAI"/>
-                        <outlet property="searchBar" destination="qP2-Iz-vnr" id="D0N-Yb-arg"/>
+                        <outlet property="searchBar" destination="qP2-Iz-vnr" id="qz3-qK-dDu"/>
                         <outlet property="searchDisplayController" destination="8JZ-5y-Hv1" id="egY-aQ-mgC"/>
+                        <outlet property="tableView" destination="elJ-cv-7cl" id="6o5-Cn-YbY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

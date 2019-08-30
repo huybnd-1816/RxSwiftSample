@@ -7,6 +7,7 @@
 //
 
 import Alamofire
+import RxSwift
 
 struct APIService {
     static let shared = APIService()
@@ -22,8 +23,7 @@ struct APIService {
     }
     
     func request<T: Decodable>(input: BaseRequest, completion: @escaping (_ value: T?, _ error: BaseError?) -> Void) {
-        print(input)
-        
+
         alamofireManager.request(input.url,
                                  method: input.requestType,
                                  parameters: input.parameters,
