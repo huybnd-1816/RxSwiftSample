@@ -23,6 +23,7 @@ struct APIService {
     }
     
     func request<T: Decodable>(input: BaseRequest, completion: @escaping (_ value: T?, _ error: BaseError?) -> Void) {
+
         alamofireManager.request(input.url,
                                  method: input.requestType,
                                  parameters: input.parameters,
